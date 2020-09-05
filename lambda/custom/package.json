@@ -1,0 +1,15 @@
+{
+  "name": "dimartinofrancesco-pendolare-skill",
+  "version": "1.0.0",
+  "description": "Chiedi ad Alexa quando parte il prossimo treno per il lavoro o per casa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "francescodimartino.it",
+  "dependencies": {
+    "ask-sdk": "^2.0.7",
+    "ask-sdk-model": "^1.3.1",
+    "moment-timezone": "^0.5.27"
+  }
+}

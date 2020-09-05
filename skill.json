@@ -1,0 +1,57 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Alexa apri mio treno",
+          "examplePhrases": [
+            "Alexa apri mio treno"
+          ],
+          "keywords": [
+            "treni",
+            "orari treni",
+            "ritardi treni",
+            "pendolare",
+            "trenitalia"
+          ],
+          "name": "Il mio treno",
+          "description": "La skill permette di conoscere l'orario del prossimo treno, Trenitalia - Ferrovie dello stato, per recarsi al lavoro, a scuola o alla destinazione più frequente. Se il treno è già in viaggio comunica anche se è in orario, se è soppresso o con quanto ritardo viaggia."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions.",
+      "category": "PUBLIC_TRANSPORTATION",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "pendolare-skill"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "sourceDir": "lambda/custom",
+              "uri": "pendolare-skill"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": ""
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

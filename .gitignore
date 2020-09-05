@@ -1,0 +1,4 @@
+_tmp/
+config.js
+gitsetup.sh
+lambda/custom/node_modules
